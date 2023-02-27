@@ -13,9 +13,9 @@ document.getElementById("btn-submit").addEventListener("click",function(){
     // Danger: DO not verify email & password on the client side
     // Step 3: Verify email & password
     if(email === "rupok@sajmin.com" && pass === "secret"){
-        console.log("Valid User");
+        window.location.href = "bank.html";
     }
     else{
-        console.log("Invalid User");
+        alert("Tui password vule gechos!!! \nToke ami tejjo sontan gosona korlam....");
     }
 })
